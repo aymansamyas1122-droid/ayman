@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  margin: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #555;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #50587d;
+  padding: 20px;
+  margin: 15px;
+}
+
+h1, h2 {
+  display: block;
+  color: #50587d;
+  text-decoration: underline dashed;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-style: oblique;
+  font-variant: small-caps;
+  border: 2px dashed #888;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1em;
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 250px;
+  border: 3px solid #333;
+  padding: 5px;
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px 0;
+  font-size: 0.95em;
+  border: 2px solid #444;
+  padding: 10px;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 8px 12px;
+}
+
+form {
+  background: #f3f3f3;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  font-size: 0.95em;
+  border: 2px solid #777;
+  margin: 20px 0;
+}
+
+iframe, video {
+  margin-top: 20px;
+  border: 2px solid #222;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.overflow {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  overflow: auto; /* Scroll appears if content is bigger */
+}
+
+
+.contaner{
+  display:  flex;
+flex-direction: row;
+flex-wrap: wrap;
+  background: #50587d;
+padding: 10px;
+
+}
+.contaner div{
+  background: #ffffff;
+padding: 10px;
+margin: 10px;
+
+}
